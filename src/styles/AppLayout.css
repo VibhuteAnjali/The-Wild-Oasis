@@ -1,0 +1,25 @@
+.main-window {
+  padding: 0rem 2rem 1em;
+  background-color: rgb(246, 242, 242);
+  overflow: scroll;
+  padding-left: 5em;
+  overflow-x: hidden;
+}
+.header {
+  background-color: white;
+}
+.sidebar {
+  background-color: white;
+  padding: 3.2rem 2.4rem;
+  border-right: 1px solid var(--color-grey-100);
+  grid-row: 1/-1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.main-component {
+  display: grid;
+  grid-template-columns: 22rem 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
