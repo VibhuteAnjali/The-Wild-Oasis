@@ -118,7 +118,7 @@ function BookingDataBox({ booking }) {
     observations,
     isPaid,
     guests: { fullName: guestName, email, country, countryFlag, nationalID },
-    Cabins: { name: cabinName },
+    cabinId,
   } = booking;
 
   return (
@@ -127,7 +127,7 @@ function BookingDataBox({ booking }) {
         <div>
           <HiOutlineHomeModern />
           <p>
-            {numNights} Nights in Cabin <span>{cabinName}</span>
+            {numNights} Nights in Cabin <span>{cabinId}</span>
           </p>
         </div>
 
