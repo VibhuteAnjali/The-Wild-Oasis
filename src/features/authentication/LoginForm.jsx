@@ -9,7 +9,7 @@ import "../../styles/index.css";
 import { useLogin } from "./useLogin";
 function LoginForm() {
   const [email, setEmail] = useState("anjali.vibhute2002@gmail.com");
-  const [password, setPassword] = useState("test2023");
+  const [password, setPassword] = useState("24681012");
   const { login, isLoading } = useLogin();
   function handleSubmit(e) {
     e.preventDefault();
